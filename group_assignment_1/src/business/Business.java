@@ -1,11 +1,11 @@
 package business;
 
-import Business.Person.PersonDirectory;
-import Business.Profiles.EmployeeDirectory;
-import Business.Profiles.StudentDirectory;
-import Business.Profiles.FacultyDirectory;
-import Business.Profiles.RegistrarDirectory;
-import Business.UserAccounts.UserAccountDirectory;
+import business.Person.PersonDirectory;
+import business.Profiles.EmployeeDirectory;
+import business.Profiles.StudentDirectory;
+import business.Profiles.FacultyDirectory;
+import business.Profiles.RegistrarDirectory;
+import business.UserAccounts.UserAccountDirectory;
 
 /**
  * Root container for the Digital University business structure.
