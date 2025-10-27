@@ -6,9 +6,9 @@ import business.Profiles.EmployeeProfile;
 import business.Profiles.StudentProfile;
 import business.UserAccounts.UserAccount;
 import business.UserAccounts.UserAccountDirectory;
-import UserInterface.WorkAreas.AdminRole.AdminRoleWorkAreaJPanel;
-import UserInterface.WorkAreas.FacultyRole.FacultyWorkAreaJPanel;
-import UserInterface.WorkAreas.StudentRole.StudentWorkAreaJPanel;
+import business.UserInterface.WorkAreas.AdminRole.AdminRoleWorkAreaJPanel;
+import business.UserInterface.WorkAreas.FacultyRole.FacultyWorkAreaJPanel;
+import business.UserInterface.WorkAreas.StudentRole.StudentWorkAreaJPanel;
 
 import javax.swing.*;
 import java.awt.*;

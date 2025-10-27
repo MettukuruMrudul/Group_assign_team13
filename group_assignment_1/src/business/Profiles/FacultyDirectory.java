@@ -1,4 +1,4 @@
-package Business.Profiles;
+package business.Profiles;
 
 import java.util.ArrayList;
 import business.Person.Person;

@@ -1,6 +1,6 @@
 package business.UserAccounts;
 
-import Business.UserAccounts.UserAccount;
+import business.UserAccounts.UserAccount;
 
 /**
  * 
