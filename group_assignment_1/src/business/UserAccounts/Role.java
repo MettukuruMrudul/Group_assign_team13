@@ -1,9 +1,9 @@
 package business.UserAccounts;
 
 /**
- * Enum for Role-based Access Control.
- * Defines roles used in Digital University System.
- * @author Manav
+ * 
+ * 
+ * @author krishi
  */
 public enum Role {
     ADMIN,
