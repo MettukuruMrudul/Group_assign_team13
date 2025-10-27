@@ -8,11 +8,17 @@ package business.Academic;
  *
  * @author krishi
  */
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+import java.util.ArrayList;  // FIXED: Added missing import
+
 public class CourseDirectory {
     private ArrayList<Course> courses;
     
     public CourseDirectory() {
-        this.courses = new ArrayList<>();
+        this.courses = new ArrayList<Course>();
         initializeCourses();
     }
     
@@ -47,7 +53,7 @@ public class CourseDirectory {
     }
     
     public ArrayList<Course> getCoursesByDepartment(String departmentId) {
-        ArrayList<Course> deptCourses = new ArrayList<>();
+        ArrayList<Course> deptCourses = new ArrayList<Course>();
         for (Course course : courses) {
             if (course.getDepartmentId().equals(departmentId)) {
                 deptCourses.add(course);

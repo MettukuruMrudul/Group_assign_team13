@@ -9,18 +9,17 @@ package business.Academic;
  * @author krishi
  */
 
+
+
+
 import java.util.ArrayList;
 
-/**
- * Directory to manage all departments
- * @author Group
- */
 public class DepartmentDirectory {
     private ArrayList<Department> departments;
     
     public DepartmentDirectory() {
-        this.departments = new ArrayList<>();
-        initializeDepartments();
+        this.departments = new ArrayList<Department>();
+        initializeDepartments();  // FIXED: Removed "departments" before method call
     }
     
     private void initializeDepartments() {

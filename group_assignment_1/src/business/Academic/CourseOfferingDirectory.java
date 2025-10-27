@@ -12,7 +12,7 @@ public class CourseOfferingDirectory {
     private ArrayList<CourseOffering> courseOfferings;
     
     public CourseOfferingDirectory() {
-        this.courseOfferings = new ArrayList<>();
+        this.courseOfferings = new ArrayList<CourseOffering>();
     }
     
     public CourseOffering createCourseOffering(Course course, String semester, int capacity) {
@@ -35,7 +35,7 @@ public class CourseOfferingDirectory {
     }
     
     public ArrayList<CourseOffering> getOfferingsBySemester(String semester) {
-        ArrayList<CourseOffering> semesterOfferings = new ArrayList<>();
+        ArrayList<CourseOffering> semesterOfferings = new ArrayList<CourseOffering>();
         for (CourseOffering offering : courseOfferings) {
             if (offering.getSemester().equals(semester)) {
                 semesterOfferings.add(offering);
@@ -45,7 +45,7 @@ public class CourseOfferingDirectory {
     }
     
     public ArrayList<CourseOffering> getOfferingsByCourse(String courseId) {
-        ArrayList<CourseOffering> courseOfferingsList = new ArrayList<>();
+        ArrayList<CourseOffering> courseOfferingsList = new ArrayList<CourseOffering>();
         for (CourseOffering offering : courseOfferings) {
             if (offering.getCourse().getCourseId().equals(courseId)) {
                 courseOfferingsList.add(offering);
