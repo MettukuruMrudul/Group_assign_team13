@@ -1,9 +1,9 @@
 package business.Person;
 
 /**
- * Represents a single person in the Digital University.
- * Each person can be linked to one or more profiles.
- * @author Manav
+ * 
+ * 
+ * @author krishi
  */
 public class Person {
 
