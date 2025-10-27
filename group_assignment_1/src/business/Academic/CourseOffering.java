@@ -6,7 +6,7 @@ package business.Academic;
 
 /**
  *
- * @author DELL
+ * @author krishi
  */
 public class CourseOffering {
     private static int offeringIdCounter = 1000;
